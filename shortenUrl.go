@@ -21,7 +21,8 @@ func main() {
 		`{"longUrl": "%s"}`,
 		longUrl))
 
-	request, err := http.NewRequest(
+	request, err := http.
+	(
 		"POST",
 		"https://www.googleapis.com/urlshortener/v1/url",
 		body)
