@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fmt.Printf("Hello, world.  Sqrt(2) = %v\n", mymath.Sqrt(2))
-	fmt.Printf("Hello, world.  bubblesort = %s\n", mysort.bubbleSort())
+	fmt.Printf("Hello, world.  bubblesort = %d\n", mysort.BubbleSort(1))
 
 	// http.HandleFunc("/", Redirect)
 	// http.HandleFunc("/add", Add)
